@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mental trening – enkel guide</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0f172a">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(180deg, #0f172a, #020617);
+            color: #e5e7eb;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 24px 20px 40px;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 28px;
+        }
+
+        .icon {
+            font-size: 2.8rem;
+            margin-bottom: 8px;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            margin: 0 0 8px;
+        }
+
+        .intro {
+            font-size: 1rem;
+            color: #cbd5f5;
+            line-height: 1.4;
+        }
+
+        /* Steps */
+        .step {
+            background: #1e293b;
+            border-radius: 14px;
+            padding: 18px;
+            margin-bottom: 14px;
+            box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+        }
+
+        .step-number {
+            font-weight: 700;
+            color: #facc15;
+            margin-bottom: 6px;
+            font-size: 0.9rem;
+        }
+
+        .step-text {
+            font-size: 1.05rem;
+            line-height: 1.45;
+        }
+
+        /* End */
+        .end {
+            margin-top: 24px;
+            padding: 18px;
+            background: #020617;
+            border-radius: 14px;
+            font-size: 1.05rem;
+            text-align: center;
+        }
+
+        /* Deep dive */
+        .more {
+            margin-top: 28px;
+            padding: 18px;
+            background: #020617;
+            border-radius: 14px;
+            border: 1px solid #1e293b;
+        }
+
+        .more h2 {
+            font-size: 1.1rem;
+            margin: 0 0 8px;
+            color: #facc15;
+        }
+
+        .more p {
+            margin: 0;
+            font-size: 0.95rem;
+            line-height: 1.45;
+            color: #cbd5f5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <div class="icon">🧠</div>
+            <h1>Mental trening</h1>
+            <div class="intro">
+                Mange spillere bruker dette når de vil roe ned, føle seg tryggere
+                eller samle tankene litt.
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-number">STEG 1</div>
+            <div class="step-text">
+                Finn en stilling som er behagelig for deg.
+                Du kan sitte, stå eller ligge.
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-number">STEG 2</div>
+            <div class="step-text">
+                Pust rolig inn og ut noen ganger.
+                Hvis du vil, kan du lukke øynene.
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-number">STEG 3</div>
+            <div class="step-text">
+                Tenk på noe med fotball som du har lyst til å bli bedre på.
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-number">STEG 4</div>
+            <div class="step-text">
+                Se for deg at du gjør dette på din måte.
+                Se, hør og kjenn hvordan det føles når det går bra.
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-number">STEG 5</div>
+            <div class="step-text">
+                Si noe positivt til deg selv, for eksempel:
+                «Jeg klarer dette» eller «Jeg gjør så godt jeg kan».
+            </div>
+        </div>
+
+        <div class="end">
+            Det er alt.<br />
+            Du trenger ikke gjøre mer nå.
+        </div>
+
+        <div class="more">
+            <h2>Vil du vite litt mer?</h2>
+            <p>
+                Når du ser for deg noe på denne måten, øver hjernen nesten
+                på samme måte som når du trener på banen.
+                Jo oftere du gjør det, jo lettere blir det å være rolig
+                og fokusert i virkelige situasjoner.
+            </p>
+        </div>
+
+    </div>
+	<script>
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("service-worker.js");
+}
+</script>
+
+</body>
+</html>
